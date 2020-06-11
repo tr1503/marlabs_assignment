@@ -47,11 +47,13 @@ public class Student {
 	public void setCourses(List<Course> courses) {
 		this.courses = courses;
 	}
-	public float getGpa() {
-		return gpa;
+
+	public int getCredits() {
+		return credits;
 	}
-	public void setGpa(float gpa) {
-		this.gpa = gpa;
+
+	public void setCredits(int credits) {
+		this.credits = credits;
 	}
 	
 	
